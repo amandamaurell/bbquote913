@@ -7,6 +7,9 @@ install_requirements:
 check_code:
 	@flake8 scripts/* bbquote913/*.py
 
+run:
+	@python bbquote913/lib.py
+
 black:
 	@black scripts/* bbquote913/*.py
 
